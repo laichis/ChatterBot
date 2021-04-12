@@ -1,2 +1,4 @@
 django>=1.8,<2.0
 chatterbot>=0.8
+nltk>=3.6 # not directly required, pinned by Snyk to avoid a vulnerability
+pyyaml>=5.2 # not directly required, pinned by Snyk to avoid a vulnerability
